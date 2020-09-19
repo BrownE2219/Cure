@@ -1,12 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Donor from "./Components/unAuthComponent/Register/registerDonor";
-import Home from "./Components/authComponent/home";
+import Header from './header'
+import Footer from './footer'
+import Home from './Components/authComponent/home'
+import Contact from './Components/authComponent/contact'
+
+
 function App() {
   return (
     <div >
-    <Donor/>
+        <div> 
+        <Home />
+        </div>
     </div>
   );
 }
